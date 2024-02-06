@@ -21,7 +21,7 @@
         // Add more projects here
     ];
 
-    const reflexiones = [
+    const entradas = [
         {
             title: "La verdad sobre el bitcoin",
             action: "Leer",
@@ -46,7 +46,7 @@
         <Introduction />
         <GetInTouch />
         <ProjectList {proyectos} />
-        <ArticleList {reflexiones} />
+        <ArticleList {entradas} />
         <NewsletterSignUp />
         <Footer />
     </div>

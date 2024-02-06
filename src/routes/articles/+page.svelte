@@ -5,7 +5,7 @@
     import Profile from "../../components/Profile.svelte";
     import ArticleList from "../../components/ArticleList.svelte";
 
-    const reflexiones = [
+    const entradas = [
         {
             title: "La verdad sobre el bitcoin",
             action: "Leer",
@@ -39,7 +39,7 @@
 >
     <div class="flex flex-col max-w-xl mx-auto m-4 p-4">
         <Profile />
-        <ArticleList {reflexiones} />
+        <ArticleList {entradas} />
         <NewsletterSignUp />
         <Footer />
     </div>
