@@ -4,7 +4,7 @@
 </script>
 
 <div class="flex rounded-xl justify-between items-center py-4">
-    <span class="text-2xl font-bold font-mono"> Proyectos</span>
+    <span class="text-2xl font-bold"> Proyectos</span>
 
     <a href="projects"
         ><div class="flex items-center hover:underline">
@@ -18,13 +18,13 @@
         class="flex flex-col rounded-xl bg-stone-200 p-4 dark:bg-stone-800 mt-4"
     >
         <div class="flex justify-between items-center">
-            <span class="text-xl font-bold font-mono">{proyecto.title}</span>
+            <span class="text-xl font-bold">{proyecto.title}</span>
             <span class="text-base bg">{proyecto.year}</span>
         </div>
         <span class="text-lg my-4">{proyecto.description}</span>
         <a href="{proyecto.link}">
         <button class="flex items-center hover:underline">
-            <span class="font-mono">GitHub repo</span><ChevronRight
+            <span class="">GitHub repo</span><ChevronRight
                 size="15"
             />
         </button></a>

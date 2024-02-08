@@ -10,7 +10,7 @@
     />
 </div>
 <div class="flex flex-col">
-    <span class="text-2xl font-mono font-extrabold mb-2"
+    <span class="text-2xl font-extrabold mb-2"
         >Hola, soy José Granados.<br />Ingeniero de sistemas embebidos y
         desarrollador de software</span
     >
