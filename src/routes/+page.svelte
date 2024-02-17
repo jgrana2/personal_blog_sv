@@ -7,19 +7,9 @@
     import NewsletterSignUp from "../components/NewsletterSignUp.svelte";
     import Footer from "../components/Footer.svelte";
 
-    const proyectos = [
-        {
-            title: "PaySubs",
-            year: "2024",
-            description: "A subscription management and payment gateway",
-        },
-        {
-            title: "Mastertrends",
-            year: "2024",
-            description: "Know what's hot and relevant",
-        },
-        // Add more projects here
-    ];
+    export let data;
+
+    const proyectos = data.projects.documents;
 
     const posts = [
         {
@@ -37,11 +27,7 @@
         // Add more reflections here
     ];
 </script>
-<svelte:head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-</svelte:head>
+
 <div
     class="flex w-full h-full bg-stone-100 dark:bg-stone-900 text-stone-600 dark:text-stone-300"
 >
