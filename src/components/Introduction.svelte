@@ -11,7 +11,7 @@
 </div>
 <div class="flex flex-col">
     <span class="text-2xl font-extrabold mb-2"
-        >Hola, soy José Granados.<br />Ingeniero de sistemas embebidos y
+        >Hola, soy José Granados.<br />Ingeniero de sistemas embebidos, investigador y
         desarrollador de software</span
     >
     <div class="flex gap-10 mb-10">
@@ -20,8 +20,8 @@
     </div>
     <span class="text-xl"
         >En el momento, acabo de lanzar esta plantilla de portafolio mínima que
-        estás viendo (consíguela <a href="@" class="font-bold"> aquí</a>).
+        estás viendo.
         También estoy trabajando en mis propios proyectos, compartiendo mis
-        pensamientos en este blog y documentado el progreso en Threads.</span
+        pensamientos en este blog y documentado el progreso en redes sociales.</span
     >
 </div>
