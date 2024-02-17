@@ -17,7 +17,7 @@
         <div class="flex justify-between items-center">
             <span class="">{entrada.title}</span>
             <button class="flex items-center hover:underline">
-                <span class="text-base">{entrada.action} </span><ChevronRight
+                <span class="text-base">Leer</span><ChevronRight
                     size="15"
                 />
             </button>

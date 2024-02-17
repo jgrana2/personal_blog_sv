@@ -10,22 +10,7 @@
     export let data;
 
     const proyectos = data.projects.documents;
-
-    const posts = [
-        {
-            title: "La verdad sobre el bitcoin",
-            action: "Leer",
-        },
-        {
-            title: "Nada es lo que parece",
-            action: "Leer",
-        },
-        {
-            title: "Complejidad y caos",
-            action: "Leer",
-        },
-        // Add more reflections here
-    ];
+    const posts = data.posts.documents;
 </script>
 
 <div
