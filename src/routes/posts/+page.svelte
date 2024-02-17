@@ -1,37 +1,11 @@
 <script>
-    import ProjectList from "../../components/ProjectList.svelte";
     import NewsletterSignUp from "../../components/NewsletterSignUp.svelte";
     import Footer from "../../components/Footer.svelte";
     import Profile from "../../components/Profile.svelte";
     import Posts from "../../components/Posts.svelte";
 
-    const posts = [
-        {
-            title: "La verdad sobre el bitcoin",
-            action: "Leer",
-        },
-        {
-            title: "Nada es lo que parece",
-            action: "Leer",
-        },
-        {
-            title: "Complejidad y caos",
-            action: "Leer",
-        },
-        {
-            title: "Semiconductor news",
-            action: "Leer",
-        },
-        {
-            title: "Introduction to LLMs",
-            action: "Leer",
-        },
-        {
-            title: "SvelteKit + Tailwind CSS for the win",
-            action: "Leer",
-        },
-        // Add more reflections here
-    ];
+    export let data;
+    const posts = data.posts.documents;
 </script>
 
 <div
