@@ -4,34 +4,8 @@
     import Footer from "../../components/Footer.svelte";
     import Profile from "../../components/Profile.svelte";
 
-    const proyectos = [
-        {
-            title: "PaySubs",
-            year: "2024",
-            description: "A subscription management and payment gateway",
-            link: "https://github.com/jgrana2/paygate_cloud",
-        },
-        {
-            title: "Mastertrends",
-            year: "2025",
-            description: "Know what's hot and relevant",
-            link: "https://github.com/jgrana2/3ch.report",
-        },
-        {
-            title: "ECG Report Generator",
-            year: "2024",
-            description: "Generate PDF ECG reports",
-            link: "https://github.com/jgrana2/pyqt_test",
-        },
-        {
-            title: "Decision Making App",
-            year: "2024",
-            description:
-                "Analise options and criteria for the best AI-assisted decision",
-            link: "https://github.com/jgrana2/decision_making_py",
-        },
-        // Add more projects here
-    ];
+    export let data;
+    const proyectos = data.projects.documents;
 </script>
 
 <div

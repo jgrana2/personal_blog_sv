@@ -22,7 +22,7 @@
             <span class="text-base bg">{proyecto.year}</span>
         </div>
         <span class="text-lg my-4">{proyecto.description}</span>
-        <a href="{proyecto.link}">
+        <a href="{proyecto.repo_link}">
         <button class="flex items-center hover:underline">
             <span class="">GitHub repo</span><ChevronRight
                 size="15"
