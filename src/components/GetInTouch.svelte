@@ -1,7 +1,7 @@
 <script>
-    import { ChevronRight, CursorArrowRays} from "svelte-heros-v2";
+    import { ChevronRight, ChatBubbleLeftRight} from "svelte-heros-v2";
 </script>
 
 <a href="contact"><button class="flex items-center text-xl mb-8 pt-4 gap-1 hover:underline">
-<CursorArrowRays/>Ponte en contacto <ChevronRight size="15" />
+<ChatBubbleLeftRight/>Get in Touch<ChevronRight size="15" />
 </button></a>

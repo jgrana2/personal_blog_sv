@@ -5,6 +5,11 @@
 
 <div class="flex rounded-xl justify-between items-center py-4">
     <span class="text-2xl font-bold"> Proyectos</span>
+    <a href="projects"
+        ><div class="flex items-center hover:underline">
+            Ver todo<ChevronRight size="15" />
+        </div></a
+    >
 </div>
 
 {#each proyectos as proyecto}
