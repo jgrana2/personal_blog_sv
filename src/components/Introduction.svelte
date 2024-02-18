@@ -2,13 +2,6 @@
     import { MapPin } from "svelte-heros-v2";
 </script>
 
-<div class="flex w-full">
-    <img
-        src="JoseProfilePic.jpeg"
-        alt=""
-        class="w-44 h-44 mt-12 mb-10 rounded-full"
-    />
-</div>
 <div class="flex flex-col">
     <span class="text-2xl font-extrabold mb-2"
         >Hola, soy José Granados.<br />Ingeniero de sistemas embebidos, investigador y

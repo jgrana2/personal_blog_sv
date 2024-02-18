@@ -7,7 +7,7 @@
     <span class="text-2xl font-bold"> Entradas</span>
     <a href="posts">
         <button class="flex items-center hover:underline">
-            <span class="text-base">Ver todo </span><ChevronRight size="15" />
+            <span class="text-base">Ver todo</span><ChevronRight size="15" />
         </button>
     </a>
 </div>
