@@ -41,3 +41,11 @@ export async function getPosts(limit = null) {
         options
     );
 }
+
+export async function getPost(id) {
+    return await databases.getDocument(
+        DATABASE_ID,
+        POSTS_COLLECTION_ID,
+        id
+    );
+}
