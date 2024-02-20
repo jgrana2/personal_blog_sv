@@ -16,11 +16,13 @@
     <div class="flex flex-col py-4 border-b">
         <div class="flex justify-between items-center">
             <span class="">{entrada.title}</span>
-            <button class="flex items-center hover:underline">
-                <span class="text-base">Leer</span><ChevronRight
-                    size="15"
-                />
-            </button>
+            <a href=post/{entrada.$id}>
+                <button class="flex items-center hover:underline">
+                    <span class="text-base">Leer</span><ChevronRight
+                        size="15"
+                    />
+                </button>
+            </a>
         </div>
     </div>
 {/each}
