@@ -20,7 +20,7 @@
             name="EMAIL"
             class="required email w-full rounded-lg p-2 text-stone-800"
             id="mce-EMAIL"
-            required=""
+            required
             value="" />
             <button
                 class="p-4 text-sm bg-stone-200 dark:bg-stone-700 rounded-lg"
