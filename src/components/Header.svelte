@@ -3,7 +3,7 @@
 
 
     function handleEnglish(event) {
-        alert("Coming soon");
+        alert("Coming soon...");
     }
 </script>
 

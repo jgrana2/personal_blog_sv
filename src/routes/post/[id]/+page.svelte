@@ -4,7 +4,6 @@
     import NewsletterSignUp from '../../../components/NewsletterSignUp.svelte';
     import Footer from '../../../components/Footer.svelte';
     export let data;
-    console.log(data.post);
 </script>
 
 <div
