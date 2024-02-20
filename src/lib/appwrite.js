@@ -1,9 +1,10 @@
-import { Client, Databases, Account, Query } from "appwrite";
+import { Client, Databases, Account, Query, ID } from "appwrite";
 
 const PROJECT_ID = '65d11e6b146ad55ee1de';
 const DATABASE_ID = '65d11e8af3d5fd8ba809'; // Replace with your database ID
 const PROJECTS_COLLECTION_ID = '65d11e9541615c7725ec'; // Replace with your collection ID
 const POSTS_COLLECTION_ID = '65d11e9c666346a21cab'; // Replace with your collection ID
+const MESSAGES_COLLECTION_ID = '65d21d60410fbdde0137'; // Replace with your collection ID
 
 const client = new Client();
 
@@ -47,5 +48,14 @@ export async function getPost(id) {
         DATABASE_ID,
         POSTS_COLLECTION_ID,
         id
+    );
+}
+
+export async function submitMessage(message) {
+    return await databases.createDocument(
+        DATABASE_ID,
+        MESSAGES_COLLECTION_ID,
+        ID.unique(),
+        message
     );
 }
