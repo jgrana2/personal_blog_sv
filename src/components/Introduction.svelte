@@ -3,7 +3,14 @@
 </script>
 
 <div class="flex flex-col">
-    <span class="text-2xl font-extrabold">GRANA2 EMBEDDED</span>
+    <div class="flex w-full">
+        <img
+            src="Jose_perfil.jpeg"
+            alt=""
+            class="w-16 h-16 mt-12 mb-2 rounded-full"
+        />
+    </div>
+    <span class="text-2xl font-extrabold">JOSE GRANADOS</span>
     <span class="text-sm text italic mb-2"
         >Sistemas Embebidos, Investigación, Desarrollo de Software</span
     >
@@ -17,10 +24,10 @@
         </div>
     </div>
     <span class="text-xl"
-        >Nos complace anunciar el lanzamiento global de nuestra nueva plantilla
-        de portafolio minimalista, disponible ahora para todos ustedes.
-        Paralelamente, estamos dedicados al desarrollo de proyectos propios, los
-        cuales compartimos con ustedes a través de este blog y mantenemos un
+        >Me complace anunciar el lanzamiento global de esta nueva plantilla
+        de portafolio minimalista, disponible ahora para todos ustedes (consíguela <a class="underline" href="https://github.com/jgrana2/personal_blog_sv">aquí</a>).
+        Paralelamente, estoy dedicado al desarrollo de proyectos propios, los
+        cuales comparto con ustedes a través de este blog y mantengo un
         registro continuo de su evolución en diversas plataformas de redes
         sociales.</span
     >
